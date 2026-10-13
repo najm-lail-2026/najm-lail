@@ -19,3 +19,130 @@
   height: 180px;
   object-fit: cover;
 }
+
+body.najm,
+body.lail {
+  margin: 0;
+  padding: 20px 12px;
+  background: #14243b;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  line-height: 1.9;
+}
+
+.wrap {
+  max-width: 650px;
+  margin: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.back {
+  color: #ffffff;
+  font-size: 17px;
+}
+
+.card {
+  background: #223752;
+  border-radius: 20px;
+  padding: 15px;
+  overflow: hidden;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+.badge h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.badge p {
+  font-size: 19px;
+}
+
+.content {
+  font-size: 19px;
+}
+
+.alert,
+.relation {
+  background: #304967;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.field {
+  background: #304967;
+  padding: 12px 6px;
+  border-radius: 12px;
+}
+
+.label,
+.value {
+  display: block;
+}
+
+.label {
+  color: #cbd8e9;
+  font-size: 16px;
+}
+
+.value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.call-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.phone {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.btn {
+  display: block;
+  background: #f2d48b;
+  color: #14243b;
+  padding: 13px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.note {
+  font-size: 18px;
+  margin-top: 20px;
+
