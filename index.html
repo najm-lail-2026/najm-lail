@@ -1,23 +1,81 @@
-<div class="links">
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>نجم وليل</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 25px 15px;
+      background: #101827;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 { font-size: 32px; }
+
+    .cats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      max-width: 650px;
+      margin: 30px auto;
+    }
+
+    .cat {
+      display: block;
+      background: #26354b;
+      padding: 8px;
+      border-radius: 15px;
+      color: white;
+      text-decoration: none;
+      min-width: 0;
+    }
+
+    .cat img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      display: block;
+    }
+
+    .cat div {
+      padding: 12px 0;
+      font-size: 20px;
+    }
+
+    .note {
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+
   <div style="font-size:36px">☾ ✦</div>
   <h1>نجم وليل</h1>
   <p>أخوان صغيران، وعائلتهما تنتظرهما دائمًا ❤️</p>
-</div>
 
-<div class="links" style="display:grid !important;grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px;width:100%">
+  <div class="cats">
+    <a class="cat" href="lail.html">
+      <img src="lail.jpg" alt="ليل">
+      <div>☾ ليل</div>
+    </a>
 
-  <a class="tile" href="lail.html">
-    <img src="lail.jpg" alt="ليل">
-    <div>☾ ليل</div>
-  </a>
+    <a class="cat" href="najm.html">
+      <img src="najm.jpg" alt="نجم">
+      <div>★ نجم</div>
+    </a>
+  </div>
 
-  <a class="tile" href="najm.html">
-    <img src="najm.jpg" alt="نجم">
-    <div>★ نجم</div>
-  </a>
+  <p class="note">
+    إذا وجدت أحدهما، افتح صفحته واتصل بنا
+    لمساعدته على العودة إلى المنزل.
+  </p>
 
-</div>
+</body>
+</html>
 
-<p class="note">
-  إذا وجدت أحدهما، افتح صفحته واتصل بنا لمساعدته على العودة إلى المنزل.
-</p>
